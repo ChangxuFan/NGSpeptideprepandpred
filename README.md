@@ -42,7 +42,9 @@ sortALLMSA.pl <input.pfam>
  GAGseq.txt NRhits_17_7.txt > percentIDtoGAT.txt
  This will read out of percent identity of the NRhits list to
  your single sequence.
+ 
  cutoffpctsequences.pl Round# Pct#
+ 
  You must run this from where your uniques_stats.csv file is
  located. This will output the sequences required to reach Pct#
  of reads. 
